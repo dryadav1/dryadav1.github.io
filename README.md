@@ -1,74 +1,78 @@
-# Dhruvv Ramdas Yadav
+# 💼 Dhruv Ramdas Yadav
 
-> **Web Developer | Open to Internships in Japan & Remote Roles**  
-> Pune, Maharashtra, India 🇮🇳 | 18 years old
-
----
-
-![Profile Photo](profile.jpg)
-
-こんにちは！ドゥルヴ・ヤダブです。  
-日本のIT業界で働きたいウェブ開発者です。  
-どうぞよろしくお願いします。 🇯🇵
+**Web Developer | Data Entry Specialist | Global Internships Enthusiast**  
+📍 Pune, Maharashtra, India  
+📧 dy76118865@gmail.com | 🌐 [LinkedIn](https://www.linkedin.com/in/dryadav1275/) | 💻 [Portfolio](https://dryadav1.github.io/)
 
 ---
 
-### 💼 About Me
-I’m a self-taught **Web Developer** currently studying **B.A. (English Honours)** at IGNOU and learning **Web Development & DSA** through Apna College.
-
-I love creating responsive, modern web designs and aspire to work internationally — especially in Japan’s technology-driven environment.
-
----
-
-### 🧠 Skills
-
-- **Frontend:** HTML, CSS, JavaScript, React, Tailwind  
-- **Backend:** Node.js, Express.js  
-- **Database:** MySQL, MongoDB (Basic)  
-- **Languages:** English, Hindi, Marathi, Japanese (Beginner)  
-- **Other Tools:** Git, WordPress, Microsoft Office  
+## 🧠 About Me
+I’m an 18-year-old web developer passionate about building clean, modern websites and digital experiences.  
+Currently pursuing a **BS in Computer Science** from **University of the People**, I’m also exploring opportunities in **global internships** and remote work.
 
 ---
 
-### 🧩 Projects (Coming Soon)
-
-| Project | Description | Tech Used |
-|----------|--------------|-----------|
-| **Portfolio Website** | Dark-themed responsive portfolio | React, Tailwind |
-| **YogAmrut Mushrooms** | Organic farming business site | WordPress |
-| **EVolve Logistics** | Concept app for EV logistics | HTML, CSS, JS |
-
----
-
-### 🎓 Education
-- **IGNOU (B.A. English Honours)** — Ongoing  
-- **NIOS (Senior & Secondary)** — Completed  
+## 💻 Skills
+- **Web Technologies:** HTML, CSS, JavaScript, WordPress  
+- **Programming:** Python, Java, Kotlin, Go  
+- **Design Tools:** Figma, Canva  
+- **Office & Data:** Microsoft Office, Excel, Data Entry  
+- **Soft Skills:** Communication, Time Management, Teamwork  
 
 ---
 
-### 📜 Certifications
-- Web Development & DSA (Apna College)  
-- JavaScript Algorithms (FreeCodeCamp)  
-- JLPT N5 (In Progress)
+## 🎓 Education
+- **BS in Computer Science** — *University of the People* (Ongoing)  
+- **BA English Honours** — *IGNOU*  
+- **Senior Secondary & Secondary** — *NIOS*
 
 ---
 
-### 📫 Contact
-- **Email:** [dy76118865@gmail.com](mailto:dy76118865@gmail.com)  
-- **Phone:** [+91 9370514126](tel:+919370514126)  
-- **LinkedIn:** [linkedin.com/in/dhruvv-yadav](#)  
-- **Portfolio:** [dhruvv.vercel.app](#)  
+## 🏢 Experience
+### **A To Z Exports**  
+*Export Manager (Intern Role Simulation)*  
+- Supported international export documentation and marketing for agricultural products.  
+- Designed basic promotional materials and coordinated communication with embassy trade departments.
 
 ---
 
-### 📥 Resume
-📄 [Download Resume (PDF)](resume.pdf)
+## 🧾 Certifications
+- **Software Engineering Job Simulation** — JP Morgan Chase & Co.  
+- **Web Development Bootcamp** — Apna College  
+- **Digital Skills: Web Design** — Google Digital Garage  
 
 ---
 
-> “Grow Well, Eat Pure, Live Strong.”  
-> — *My life motto inspired by YogAmrut Mushrooms.*
+## 🌍 Languages
+- English (Fluent)  
+- Hindi (Fluent)  
+- Marathi (Native)  
+- Japanese (Basic – JLPT N5 Level)
 
 ---
 
-© 2025 Dhruvv Ramdas Yadav
+## 🚀 Projects
+### **A To Z Exports**  
+A clean, responsive company site showcasing agricultural export services and product portfolio.
+
+### **Portfolio Website**  
+Built with HTML, CSS, and JS — deployed via GitHub Pages  
+🔗 [View Portfolio](https://dryadav1.github.io/)
+
+---
+
+## 🧩 Interests
+- Global Business  
+- Japanese Culture & Work Environment  
+- Automation & Smart Logistics  
+
+---
+
+## 📫 Contact
+📧 dy76118865@gmail.com  
+🌐 [LinkedIn](https://www.linkedin.com/in/dryadav1275/)  
+💻 [Portfolio](https://dryadav1.github.io/)
+
+---
+
+⭐ *"Grow Well, Eat Pure, Live Strong"* — Motto that inspires my work ethic and global vision.
