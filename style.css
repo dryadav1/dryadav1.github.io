@@ -1,0 +1,147 @@
+:root {
+  --bg: #0b0b0d;
+  --card: #101418;
+  --text: #e0e0e0;
+  --accent: #00ffc5;
+  --muted: #9aa4b2;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+nav {
+  position: fixed;
+  width: 100%;
+  background: rgba(11, 11, 13, 0.9);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  align-items: center;
+  z-index: 100;
+}
+nav .logo {
+  background: var(--accent);
+  color: black;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 8px 14px;
+  border-radius: 50%;
+}
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+nav ul a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: 0.3s;
+}
+nav ul a:hover { color: var(--accent); }
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+.hero img {
+  width: 130px;
+  border-radius: 50%;
+  border: 2px solid var(--accent);
+}
+.hero h1 span { color: var(--accent); }
+.hero .jp { color: #8bdad0; }
+.buttons { margin-top: 20px; display: flex; justify-content: center; gap: 20px; }
+.btn, .btn-outline {
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.btn { background: var(--accent); color: black; }
+.btn-outline { border: 1px solid var(--accent); color: var(--accent); }
+
+/* Sections */
+section {
+  padding: 70px 10%;
+}
+section.dark { background: #060708; }
+
+h2 { color: var(--accent); margin-bottom: 15px; text-align: center; }
+p { color: var(--muted); line-height: 1.6; }
+
+/* Skills */
+.skill-grid {
+  display: flex; flex-wrap: wrap; justify-content: center;
+  gap: 10px; margin-top: 20px;
+}
+.skill-grid span {
+  background: #071018;
+  border: 1px solid #13333a;
+  color: #8bdad0;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+/* Projects */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #1f2a32;
+}
+.card .img {
+  background: #071018;
+  height: 150px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8bdad0;
+  font-size: 0.9rem;
+}
+
+/* Contact */
+form {
+  display: grid;
+  gap: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+input, textarea {
+  background: #071018;
+  border: 1px solid #122426;
+  color: white;
+  border-radius: 6px;
+  padding: 10px;
+}
+button {
+  background: var(--accent);
+  color: black;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: #7f8a8f;
+  padding: 20px;
+  font-size: 0.9rem;
+  border-top: 1px solid #1a1a1a;
+}
