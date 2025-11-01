@@ -1,100 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dhruvv Ramdas Yadav - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home | Dhruv Ramdas Yadav</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
-<body>
 
-  <!-- NAVBAR -->
+<body>
+  <!-- ===== NAVBAR ===== -->
   <nav>
-    <div class="logo">DY</div>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
+    <div class="logo">
+      <a href="index.html">
+        <img src="avatar-placeholder.svg" alt="Dhruv Logo" class="logo-img" />
+      </a>
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <ul id="nav-links">
+      <li><a href="index.html" class="active">🏠 Home</a></li>
+      <li><a href="projects.html">💼 Projects</a></li>
+      <li><a href="about.html">👤 About</a></li>
     </ul>
   </nav>
 
-  <!-- HERO -->
-  <header class="hero">
-    <img src="images/avatar-placeholder.svg" alt="Dhruvv Avatar">
-    <h1>Hi, I’m <span>Dhruv Ramdas Yadav</span></h1>
-    <p class="subtitle">Web Developer • Frontend Enthusiast • Learning Japanese</p>
-    <p class="jp">こんにちは！ドゥルヴ・ヤダブです。日本のIT業界で働きたいウェブ開発者です。</p>
-    <div class="buttons">
-      <a href="#projects" class="btn">View My Work</a>
-      <a href="Resume.pdf" class="btn-outline" download>Download Resume</a>
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero enhanced-hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <h1>👋 Hi, I'm <span>Dhruv Ramdas Yadav</span></h1>
+      <h2>💻 Web Developer | 🎓 CS Student | 🌍 Global Internships Enthusiast</h2>
+      <p>
+        I’m an 18-year-old aspiring <strong>Web Developer</strong> from Pune, India — passionate about
+        building clean, responsive, and globally inspired websites. Currently pursuing my
+        <strong>BS in Computer Science</strong> at the <strong>University of the People</strong>, I’m
+        learning to blend technology and creativity to create meaningful digital experiences.
+      </p>
+
+      <div class="buttons">
+        <a href="projects.html" class="btn">View Projects</a>
+        <a href="about.html" class="btn-outline">About Me</a>
+      </div>
     </div>
-  </header>
 
-  <!-- ABOUT -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I’m an 18-year-old self-taught web developer from Pune, India.
-      I build clean, responsive websites using HTML, CSS, JavaScript and React.
-      I’m actively improving my skills, contributing to projects, and learning Japanese to work in Japan’s tech ecosystem.
-    </p>
-  </section>
-
-  <!-- SKILLS -->
-  <section id="skills" class="dark">
-    <h2>Skills</h2>
-    <div class="skill-grid">
-      <span>HTML</span><span>CSS</span><span>JavaScript</span>
-      <span>React</span><span>Node.js</span><span>WordPress</span>
-      <span>MySQL</span><span>Git</span><span>Japanese (N5)</span>
+    <div class="scroll-hint">
+      <i class="fas fa-chevron-down"></i>
+      <p>Scroll Down</p>
     </div>
   </section>
 
-  <!-- PROJECTS -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
-      <div class="card">
-        <div class="img">Project 1 Image</div>
-        <h3>Project 1</h3>
-        <p>Short description of your project goes here.</p>
+  <!-- ===== FEATURE SECTION ===== -->
+  <section class="features">
+    <h2>✨ What I Do</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Front-End Development</h3>
+        <p>Building modern, responsive, and visually appealing web interfaces.</p>
       </div>
-      <div class="card">
-        <div class="img">Project 2 Image</div>
-        <h3>Project 2</h3>
-        <p>Short description of your project goes here.</p>
+      <div class="feature-card">
+        <i class="fas fa-database"></i>
+        <h3>Back-End Integration</h3>
+        <p>Connecting designs with real functionality using APIs and databases.</p>
       </div>
-      <div class="card">
-        <div class="img">Project 3 Image</div>
-        <h3>Project 3</h3>
-        <p>Short description of your project goes here.</p>
+      <div class="feature-card">
+        <i class="fas fa-globe-asia"></i>
+        <h3>Global Mindset</h3>
+        <p>Exploring internships abroad and learning from cross-cultural innovation.</p>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="dark">
-    <h2>Contact Me</h2>
-    <p>Open to internships and remote opportunities. I respond to emails quickly.</p>
-    <form action="https://formspree.io/f/your-form-id" method="POST">
-      <input type="text" name="name" placeholder="Your name" required>
-      <input type="email" name="email" placeholder="Your email" required>
-      <textarea name="message" rows="5" placeholder="Your message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-    <p class="contact-info">📧 dy76118865@gmail.com • 📍 Pune, India</p>
+  <!-- ===== CTA SECTION ===== -->
+  <section class="cta">
+    <h2>Let’s Build Something Amazing Together 💡</h2>
+    <p>Open to global internship opportunities and collaborations in tech & design.</p>
+    <a href="mailto:dy76118865@gmail.com" class="btn">📩 Get in Touch</a>
   </section>
 
   <footer>
-    © <script>document.write(new Date().getFullYear())</script> Dhruvv Ramdas Yadav
+    <p>© 2025 Dhruv Ramdas Yadav | “Building globally, learning endlessly, and coding with creativity.”</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
-
-
-
-
-
